@@ -12,7 +12,7 @@ func main() {
 	// flag to diable printing
 	// time, source file, and line number
 	log.SetPrefix("greetings: ")
-	logs.SetFlags(0)
+	log.SetFlags(0)
 
 	//Request a message
     message, err := greetings.Hello("")
